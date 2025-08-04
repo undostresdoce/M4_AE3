@@ -32,5 +32,5 @@ Este proyecto forma parte del módulo 4 del Bootcamp Front End trainee de TD
 
 
 
-## 📂 Estructura del proyecto
+## By Cvmi :)
 
