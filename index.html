@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABP4 - JS </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1> Arreglos y Ciclos | JavaScript</h1>
+
+  <div class="container">
+
+    <div class="card card-1">
+      <h2>Generar arreglo de dobles</h2>
+      <input type="number" id="inputDobles" placeholder="Cantidad de elementos (n)" />
+      <button onclick="ejecutarDobles()">Generar</button>
+      <div id="resultadoDobles" class="resultado"></div>
+    </div>
+
+    <div class="card card-2">
+      <h2>Obtener el mayor número</h2>
+      <input type="text" id="inputMayor" placeholder="10 números separados por coma" />
+      <button onclick="ejecutarMayor()">Buscar mayor</button>
+      <div id="resultadoMayor" class="resultado"></div>
+    </div>
+
+    <div class="card card-3">
+      <h2>Obtener día de la semana</h2>
+      <input type="number" id="inputDia" placeholder="Número del 1 al 7" />
+      <button onclick="ejecutarDia()">Obtener día</button>
+      <div id="resultadoDia" class="resultado"></div>
+    </div>
+
+    <div class="card card-4">
+      <h2>Buscar número en arreglo</h2>
+      <input type="text" id="inputBuscarArreglo" placeholder="Arreglo (máx 100 números)" />
+      <input type="number" id="inputBuscarNumero" placeholder="Número a buscar" />
+      <button onclick="ejecutarBusqueda()">Buscar</button>
+      <div id="resultadoBusqueda" class="resultado"></div>
+    </div>
+
+    <div class="card card-5">
+      <h2>Ordenar arreglo ascendentemente</h2>
+      <input type="text" id="inputOrdenar" placeholder="Números separados por coma" />
+      <button onclick="ejecutarOrden()">Ordenar</button>
+      <div id="resultadoOrdenar" class="resultado"></div>
+    </div>
+
+  </div>
+<footer>
+    <p>By Cvmi 💖— <a href="https://github.com/undostresdoce" target="_blank">Github</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
